@@ -26,7 +26,7 @@ function onClickedEstimatePrice() {
   var location = document.getElementById("uiLocations").value;
   var estPrice = document.getElementById("uiEstimatedPrice");
 
-  var url = "http://127.0.0.1:5000/predict_home_price";
+  var url = "/predict_home_price";
 
   $.post(url, {
     total_sqft: parseFloat(sqft),
@@ -45,7 +45,7 @@ function onClickedEstimatePrice() {
 
 function onPageLoad() {
   console.log("document loaded");
-  var url = "http://127.0.0.1:5000/get_location_names";
+  var url = "/get_location_names";
 
   $.get(url)
   .done(function(data) {
