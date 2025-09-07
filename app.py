@@ -1,11 +1,10 @@
-from flask import Flask , jsonify, request
+from flask import Flask , jsonify, request,render_template
 import util
 app=Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Flask server is running! Use /get_location_names or /predict_home_price"
-
+     return render_template("app.html")
 
 @app.route('/get_location_names' , methods=['GET'])
 def get_location_names():
