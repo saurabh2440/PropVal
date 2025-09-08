@@ -11,13 +11,13 @@ The platform combines a **machine learning model** with a clean, responsive fron
 <img src="./static/images/logo.png" alt="PropVal Logo" width="150">
 
 ### Homepage
-<img src="./static/images/Capture(01).png" alt="Homepage" width="600">
+<img src="./static/images/Capture(01).PNG" alt="Homepage" width="600">
 
 ### Prediction Page
-<img src="./static/images/Capture.png" alt="Prediction Page" width="600">
+<img src="./static/images/Capture.PNG" alt="Prediction Page" width="600">
 
 ### About Page
-<img src="./static/images/Capture(02).png" alt="Prediction Page" width="600">
+<img src="./static/images/Capture(02).PNG" alt="About Page" width="600">
 
 ---
 
