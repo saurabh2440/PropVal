@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Spicy+Rice&display=swap"
 		rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
 
 </head>
 
@@ -81,9 +81,43 @@
 	</section>
 
 	<section id="about">
-		<div class="about">
+		<div class="goal">
+
+			<div class="goal1">
+				<img src="{{ url_for('static', filename='images/target.png') }}" alt="Objective" class="goalImg" />
+				<h3>Objective</h3>
+				<ul>
+					<li>To provide accurate property price predictions using machine learning.</li>
+					<li>To create a user-friendly and responsive web interface for real estate valuation.</li>
+					<li>To help users make informed property decisions with data-driven insights.</li>
+					<li>To ensure smooth integration of ML models with a modern web application.</li>
+				</ul>
+			</div>
+
+			<div class="goal1">
+				<img src="{{ url_for('static', filename='images/start-up.png') }}" alt="Scope" class="goalImg" />
+				<h3>Scope</h3>
+				<ul>
+					<li>Developing a dynamic web application for real estate price prediction.</li>
+					<li>Supporting location-based price estimation using trained ML models.</li>
+					<li>Providing a simple and interactive dropdown for location selection.</li>
+					<li>Allowing easy deployment and accessibility via cloud hosting (Render/AWS).</li>
+				</ul>
+			</div>
+
+			<div class="goal1">
+				<img src="{{ url_for('static', filename='images/speedometer.png') }}" alt="Limitations" class="goalImg" />
+				<h3>Limitations</h3>
+				<ul>
+					<li>Predictions are limited to the dataset used for training.</li>
+					<li>Accuracy depends on the quality and size of available data.</li>
+					<li>Currently supports only predefined locations from the dataset.</li>
+					<li>May not capture sudden market fluctuations or external economic factors.</li>
+				</ul>
+			</div>
 
 		</div>
+
 	</section>
 
 	<section id="footer">
@@ -97,16 +131,18 @@
 			<div class="footer2">
 				<h3>Quick Navigation's</h3>
 				<div class="footer22">
-					<a href="http://www.instagram.com/saurabhcodes7"><img src="{{ url_for('static', filename='images/insta.png') }}"class="fimg"></a>
-					<a href="https://www.linkedin.com/in/saurabh-dange-367a29382"><img src="{{ url_for('static', filename='images/linkedin.png') }}"
-							class="fimg"></a>
+					<a href="http://www.instagram.com/saurabhcodes7"><img
+							src="{{ url_for('static', filename='images/insta.png') }}" class="fimg"></a>
+					<a href="https://www.linkedin.com/in/saurabh-dange-367a29382"><img
+							src="{{ url_for('static', filename='images/linkedin.png') }}" class="fimg"></a>
 				</div>
 				<div class="footer22">
 					<a href="mailto:saurabhdange94@gmail.com">
 						<img src="{{ url_for('static', filename='images/apple.png') }}" class="fimg">
 
 					</a>
-					<a href="https://github.com/saurabh2440"><img src="{{ url_for('static', filename='images/github.png') }}" class="fimg"></a>
+					<a href="https://github.com/saurabh2440"><img
+							src="{{ url_for('static', filename='images/github.png') }}" class="fimg"></a>
 				</div>
 			</div>
 			<div class="footer3">
